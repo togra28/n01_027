@@ -32,7 +32,7 @@ jobs:
 
     - name: Upload executable as artifact
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: n01-executable
         path: Debug/n01.exe
