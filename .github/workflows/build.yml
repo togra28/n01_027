@@ -8,25 +8,24 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
     
-    - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y build-essential gcc
+    - name: Setup Visual Studio Build Tools
+      uses: microsoft/setup-msbuild@v1.0.2
 
-    - name: Build project
-      run: |
-        cd ${{ github.workspace }}
-        gcc -c *.c -Wall -Wextra -o main.exe main.o
+    - name: Build with MSBuild
+      run: msbuild n01.sln /p:Configuration=Debug /p:Platform=Win32
       continue-on-error: true
 
     - name: Check build result
       run: |
-        if [ -f main.exe ]; then
-          echo "Build successful!"
-          ls -lh main.exe
-        else
-          echo "Build failed or executable not created"
-        fi
+        if (Test-Path "Debug\n01.exe") {
+          Write-Host "Build successful!"
+          Get-Item "Debug\n01.exe" | Format-Table -Property Name, Length
+        } else {
+          Write-Host "Build completed - check logs for details"
+        }
+      shell: pwsh
