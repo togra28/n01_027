@@ -7,13 +7,13 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include "winres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// ⌠З√{▄Й resources
+// О©╫О©╫О©╫{О©╫О©╫ resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
 #ifdef _WIN32
@@ -34,7 +34,7 @@ END
 
 2 TEXTINCLUDE DISCARDABLE 
 BEGIN
-    "#include ""afxres.h""\r\n"
+    "#include ""winres.h""\r\n"
     "\0"
 END
 
@@ -91,11 +91,11 @@ IDI_ICON_MAIN           ICON    DISCARDABLE     "res\\icon1.ico"
 
 IDD_DIALOG_MIDDLE DIALOG DISCARDABLE  0, 0, 220, 75
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐~┐h┐▀ ┐t┐H│[ ┐f┐B┐h┐▀"
-FONT 12, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫~О©╫hО©╫О©╫ О©╫tО©╫HО©╫[ О©╫fО©╫BО©╫hО©╫О©╫"
+FONT 12, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,160,55,50,14
-    LTEXT           "▐÷┌а┌╫┐v┐▄┐C┐└│[┌л┐{┐^┐⌠┌П┴÷┌╣┌д┌╜┌╬┌Ё┌╒│B",IDC_STATIC,
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,160,55,50,14
+    LTEXT           "О©╫О©╫О©╫О©╫О©╫О©╫О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫л┐{О©╫^О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫B",IDC_STATIC,
                     10,10,200,10
     PUSHBUTTON      "",IDC_BUTTON_P1,10,25,95,20
     PUSHBUTTON      "",IDC_BUTTON_P2,115,25,95,20
@@ -103,84 +103,84 @@ END
 
 IDD_DIALOG_GAME_OPTION DIALOG DISCARDABLE  0, 0, 236, 200
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐Q│[┐─░щ▓Х"
-FONT 12, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫QО©╫[О©╫О©╫О©╫щ▓О©╫"
+FONT 12, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    GROUPBOX        "┼J▌n┐X┐R┐A",IDC_STATIC,5,5,225,45
+    GROUPBOX        "О©╫JО©╫nО©╫XО©╫RО©╫A",IDC_STATIC,5,5,225,45
     CONTROL         "301",IDC_RADIO_301,"Button",BS_AUTORADIOBUTTON | 
                     WS_GROUP,15,17,26,10
     CONTROL         "501",IDC_RADIO_501,"Button",BS_AUTORADIOBUTTON,45,17,26,
                     10
     CONTROL         "1001",IDC_RADIO_1001,"Button",BS_AUTORADIOBUTTON,75,17,
                     27,10
-    CONTROL         "┌╩┌л▒╪:",IDC_RADIO_ETC,"Button",BS_AUTORADIOBUTTON,105,
+    CONTROL         "О©╫О©╫О©╫л▒О©╫:",IDC_RADIO_ETC,"Button",BS_AUTORADIOBUTTON,105,
                     17,35,10
     EDITTEXT        IDC_EDIT_SCORE,144,16,35,12,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin1",IDC_SPIN_SCORE,"msctls_updown32",UDS_SETBUDDYINT | 
                     UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
                     UDS_NOTHOUSANDS,170,25,9,15
-    CONTROL         "┐┴┐E┐⌠┐h┌П░╖▄ю┌╥┌И:",IDC_CHECK_ROUND_LIMIT,"Button",
+    CONTROL         "О©╫О©╫О©╫EО©╫О©╫О©╫hО©╫П░╖▄О©╫О©╫О©╫О©╫О©╫:",IDC_CHECK_ROUND_LIMIT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,15,32,70,10
     EDITTEXT        IDC_EDIT_ROUND,90,31,35,12,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin2",IDC_SPIN_ROUND,"msctls_updown32",UDS_SETBUDDYINT | 
                     UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
                     UDS_NOTHOUSANDS,122,30,9,15
-    GROUPBOX        "┐▄┐b┐O",IDC_STATIC,5,55,225,45
-    LTEXT           "┐▄┐b┐O░■:",IDC_STATIC_LEG,15,68,40,10,NOT WS_VISIBLE
-    CONTROL         "┐▄┐b┐O┌П░╖▄ю┌╥┌И:",IDC_CHECK_LEG_LIMIT,"Button",
+    GROUPBOX        "О©╫О©╫О©╫bО©╫O",IDC_STATIC,5,55,225,45
+    LTEXT           "О©╫О©╫О©╫bО©╫OО©╫О©╫:",IDC_STATIC_LEG,15,68,40,10,NOT WS_VISIBLE
+    CONTROL         "О©╫О©╫О©╫bО©╫OО©╫П░╖▄О©╫О©╫О©╫О©╫О©╫:",IDC_CHECK_LEG_LIMIT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,15,67,70,10
     EDITTEXT        IDC_EDIT_LEG,90,66,35,12,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin2",IDC_SPIN_LEG,"msctls_updown32",UDS_SETBUDDYINT | 
                     UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
                     UDS_NOTHOUSANDS,125,65,9,15
-    CONTROL         "┐x┐X┐g ┐I┐u... ",IDC_CHECK_BEST_OF,"Button",
+    CONTROL         "О©╫xО©╫XО©╫g О©╫IО©╫u... ",IDC_CHECK_BEST_OF,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,135,67,65,10
-    CONTROL         "┐Z┐b┐g√┬┌и░Ф█U┌П⌠Э┌Й▒ж┌╕┌И",IDC_CHECK_CHANGE_FIRST,
+    CONTROL         "О©╫ZО©╫bО©╫gО©╫О©╫О©╫и░О©╫UО©╫О©╫О©╫О©╫О©╫ж┌О©╫О©╫О©╫",IDC_CHECK_CHANGE_FIRST,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,82,145,10
-    GROUPBOX        "┐v┐▄┐C┐└│[1",IDC_STATIC,5,105,110,70
-    LTEXT           "√╪▒O:",IDC_STATIC_P1,10,116,60,10
+    GROUPBOX        "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[1",IDC_STATIC,5,105,110,70
+    LTEXT           "О©╫О©╫О©╫O:",IDC_STATIC_P1,10,116,60,10
     CONTROL         "COM",IDC_CHECK_COM1,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,81,115,30,10
     COMBOBOX        IDC_COMBO_COM1,10,127,100,78,CBS_DROPDOWNLIST | NOT 
                     WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
     COMBOBOX        IDC_COMBO_P1_NAME,10,127,100,133,CBS_DROPDOWN | 
                     CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
-    CONTROL         "▄б∙й┌л┼J▌n┐X┐R┐A┌П▌w▓Х",IDC_CHECK_P1_SCORE,"Button",
+    CONTROL         "О©╫б∙й┌л┼JО©╫nО©╫XО©╫RО©╫AО©╫О©╫О©╫wО©╫О©╫",IDC_CHECK_P1_SCORE,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,10,144,100,10
     EDITTEXT        IDC_EDIT_P1_SCORE,10,155,35,12,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin2",IDC_SPIN_P1_SCORE,"msctls_updown32",
                     UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
                     UDS_ARROWKEYS | UDS_NOTHOUSANDS,50,154,9,15
-    GROUPBOX        "┐v┐▄┐C┐└│[2",IDC_STATIC,120,105,110,70
-    LTEXT           "√╪▒O:",IDC_STATIC_P2,125,116,60,10
+    GROUPBOX        "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[2",IDC_STATIC,120,105,110,70
+    LTEXT           "О©╫О©╫О©╫O:",IDC_STATIC_P2,125,116,60,10
     CONTROL         "COM",IDC_CHECK_COM2,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,196,115,30,10
     COMBOBOX        IDC_COMBO_COM2,125,127,100,78,CBS_DROPDOWNLIST | NOT 
                     WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
     COMBOBOX        IDC_COMBO_P2_NAME,125,127,100,133,CBS_DROPDOWN | 
                     CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
-    CONTROL         "▄б∙й┌л┼J▌n┐X┐R┐A┌П▌w▓Х",IDC_CHECK_P2_SCORE,"Button",
+    CONTROL         "О©╫б∙й┌л┼JО©╫nО©╫XО©╫RО©╫AО©╫О©╫О©╫wО©╫О©╫",IDC_CHECK_P2_SCORE,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,125,144,100,10
     EDITTEXT        IDC_EDIT_P2_SCORE,125,155,35,12,ES_RIGHT | 
                     ES_AUTOHSCROLL | ES_NUMBER
     CONTROL         "Spin2",IDC_SPIN_P2_SCORE,"msctls_updown32",
                     UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
                     UDS_ARROWKEYS | UDS_NOTHOUSANDS,165,154,9,15
-    PUSHBUTTON      "░щ▓Х∙ш▒╤(&S)",IDC_BUTTON_SAVE,5,180,50,14
+    PUSHBUTTON      "О©╫щ▓О©╫ш▒О©╫(&S)",IDC_BUTTON_SAVE,5,180,50,14
     DEFPUSHBUTTON   "OK",IDOK,125,180,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,180,180,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,180,180,50,14
 END
 
 IDD_DIALOG_OPTION_KEY DIALOG DISCARDABLE  0, 0, 241, 235
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐L│["
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫LО©╫["
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "⌠o≤^┌Ё┌Й┌д┌╒┌И┐L│[░щ▓Х(&S):",IDC_STATIC,10,5,150,10
+    LTEXT           "О©╫oО©╫^О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫LО©╫[О©╫щ▓О©╫(&S):",IDC_STATIC,10,5,150,10
     CONTROL         "List1",IDC_LIST_KEY,"SysListView32",LVS_REPORT | 
                     LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
                     WS_BORDER | WS_TABSTOP,5,15,210,195
@@ -188,36 +188,36 @@ BEGIN
                     220,80,15,15
     CONTROL         "do&wn",IDC_BUTTON_DOWN,"Button",BS_OWNERDRAW | 
                     WS_TABSTOP,220,130,15,15
-    PUSHBUTTON      "▓г┴а(&A)...",IDC_BUTTON_ADD,75,215,50,14
-    PUSHBUTTON      "∙р▐W(&E)...",IDC_BUTTON_EDIT,130,215,50,14
-    PUSHBUTTON      "█М▐°(&D)",IDC_BUTTON_DELETE,185,215,50,14
+    PUSHBUTTON      "О©╫г┴О©╫(&A)...",IDC_BUTTON_ADD,75,215,50,14
+    PUSHBUTTON      "О©╫р▐W(&E)...",IDC_BUTTON_EDIT,130,215,50,14
+    PUSHBUTTON      "О©╫М▐°(&D)",IDC_BUTTON_DELETE,185,215,50,14
 END
 
 IDD_DIALOG_SET_KEY DIALOG DISCARDABLE  0, 0, 190, 145
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐L│[▒I▒П"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫LО©╫[О©╫IО©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "▀@■\(&F):",IDC_STATIC,9,10,75,10
+    LTEXT           "О©╫@О©╫\(&F):",IDC_STATIC,9,10,75,10
     COMBOBOX        IDC_COMBO_ACTION,9,20,125,215,CBS_DROPDOWNLIST | 
                     WS_VSCROLL | WS_TABSTOP
-    LTEXT           "▓Х▄^▓l(&N):",IDC_STATIC,139,10,40,10
+    LTEXT           "О©╫О©╫^О©╫l(&N):",IDC_STATIC,139,10,40,10
     EDITTEXT        IDC_EDIT_INPUT,139,20,40,13,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin1",IDC_SPIN_INPUT,"msctls_updown32",UDS_SETBUDDYINT | 
                     UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
                     UDS_NOTHOUSANDS,175,40,10,20
-    LTEXT           "┐V┐┤│[┐g┐J┐b┐g ┐L│[(&K):",IDC_STATIC,9,40,81,10
+    LTEXT           "О©╫VО©╫О©╫О©╫[О©╫gО©╫JО©╫bО©╫g О©╫LО©╫[(&K):",IDC_STATIC,9,40,81,10
     CONTROL         "HotKey1",IDC_HOTKEY_KEY,"msctls_hotkey32",WS_BORDER | 
                     WS_TABSTOP,9,50,85,15
     DEFPUSHBUTTON   "OK",IDOK,75,125,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,130,125,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,130,125,50,14
 END
 
 IDD_DIALOG_SCORE_LIST DIALOGEX 0, 0, 258, 286
 STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
-CAPTION "┐X┐R┐A┬Й≈≈"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N", 0, 0, 0x1
+CAPTION "О©╫XО©╫RО©╫AО©╫Й≈≈"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N", 0, 0, 0x1
 BEGIN
     COMBOBOX        IDC_COMBO_LEG,1,2,90,205,CBS_DROPDOWNLIST | WS_VSCROLL | 
                     WS_TABSTOP
@@ -230,13 +230,13 @@ BEGIN
                     WS_VISIBLE,WS_EX_STATICEDGE
     CTEXT           "",IDC_STATIC_P2,188,244,70,19,SS_CENTERIMAGE | NOT 
                     WS_VISIBLE,WS_EX_STATICEDGE
-    PUSHBUTTON      "∙б┌╤┌И",IDCANCEL,204,268,50,14
+    PUSHBUTTON      "О©╫б┌О©╫О©╫О©╫",IDCANCEL,204,268,50,14
 END
 
 IDD_DIALOG_ARRANGE DIALOG DISCARDABLE  0, 0, 234, 258
 STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
-CAPTION "┐A┐▄┐⌠┐W"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫AО©╫О©╫О©╫О©╫О©╫W"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
     EDITTEXT        IDC_EDIT_LEFT,3,4,45,16,ES_RIGHT | ES_AUTOHSCROLL | 
                     ES_NUMBER
@@ -246,12 +246,12 @@ BEGIN
     CONTROL         "Tree1",IDC_TREE_ARRANGE,"SysTreeView32",TVS_HASBUTTONS | 
                     TVS_HASLINES | TVS_DISABLEDRAGDROP | WS_BORDER | 
                     WS_TABSTOP,0,24,234,211
-    PUSHBUTTON      "∙б┌╤┌И",IDCANCEL,180,240,50,14
+    PUSHBUTTON      "О©╫б┌О©╫О©╫О©╫",IDCANCEL,180,240,50,14
 END
 
 IDD_DIALOG_COM DIALOG DISCARDABLE  0, 0, 215, 75
 STYLE DS_MODALFRAME | WS_POPUP
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
     CTEXT           "",IDC_STATIC_THROW_1,10,10,55,30,SS_CENTERIMAGE | 
                     SS_SUNKEN
@@ -259,49 +259,49 @@ BEGIN
                     SS_SUNKEN
     CTEXT           "",IDC_STATIC_THROW_3,150,10,55,30,SS_CENTERIMAGE | 
                     SS_SUNKEN
-    PUSHBUTTON      "▓├▌~(&S)",IDCANCEL,75,52,65,15
+    PUSHBUTTON      "О©╫О©╫О©╫~(&S)",IDCANCEL,75,52,65,15
 END
 
 IDD_DIALOG_OPTION_VIEW DIALOG DISCARDABLE  0, 0, 241, 235
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "∙\▌╕"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫\О©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
     LTEXT           "",IDC_STATIC_FRAME,11,5,220,125,SS_SUNKEN | NOT 
                     WS_GROUP
-    GROUPBOX        "░F",IDC_STATIC,11,135,220,60
-    LTEXT           "▌w▓Х┌╥┌И∙■∙╙(&I):",IDC_STATIC,21,145,70,10
+    GROUPBOX        "О©╫F",IDC_STATIC,11,135,220,60
+    LTEXT           "О©╫wО©╫Х┌╥О©╫И∙■О©╫О©╫(&I):",IDC_STATIC,21,145,70,10
     COMBOBOX        IDC_COMBO_COLOR,21,155,155,145,CBS_DROPDOWNLIST | 
                     WS_VSCROLL | WS_TABSTOP
-    LTEXT           "░F(&C):",IDC_STATIC,181,145,35,10
+    LTEXT           "О©╫F(&C):",IDC_STATIC,181,145,35,10
     CONTROL         "",IDC_BUTTON_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,
                     181,155,40,13
-    PUSHBUTTON      "┐┼┐Z┐b┐g(&R)",IDC_BUTTON_RESET,21,174,50,14
-    GROUPBOX        "┐t┐H┐⌠┐g(&F)",IDC_STATIC,11,198,220,32
+    PUSHBUTTON      "О©╫О©╫О©╫ZО©╫bО©╫g(&R)",IDC_BUTTON_RESET,21,174,50,14
+    GROUPBOX        "О©╫tО©╫HО©╫О©╫О©╫g(&F)",IDC_STATIC,11,198,220,32
     COMBOBOX        IDC_COMBO_FONT,21,210,105,135,CBS_DROPDOWNLIST | 
                     CBS_SORT | WS_VSCROLL | WS_TABSTOP
 END
 
 IDD_DIALOG_GAME_HISTORY DIALOG DISCARDABLE  0, 0, 253, 278
 STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
-CAPTION "┐Q│[┐─≈ ≈П"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫QО©╫[О©╫О©╫О©╫О©╫О©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
     LISTBOX         IDC_LIST_SCORE_LIST,0,0,252,235,LBS_OWNERDRAWVARIABLE | 
                     LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | 
                     LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
-    DEFPUSHBUTTON   "∙\▌╕(&V)...",IDC_BUTTON_VIEW,89,240,50,14
-    PUSHBUTTON      "CSV∙ш▒╤(&S)...",IDC_BUTTON_SAVE,144,240,50,14
-    PUSHBUTTON      "┐N┐┼┐A(&C)",IDC_BUTTON_CLEAR,199,240,50,14
-    PUSHBUTTON      "∙б┌╤┌И",IDCANCEL,199,260,50,14
+    DEFPUSHBUTTON   "О©╫\О©╫О©╫(&V)...",IDC_BUTTON_VIEW,89,240,50,14
+    PUSHBUTTON      "CSVО©╫ш▒О©╫(&S)...",IDC_BUTTON_SAVE,144,240,50,14
+    PUSHBUTTON      "О©╫NО©╫О©╫О©╫A(&C)",IDC_BUTTON_CLEAR,199,240,50,14
+    PUSHBUTTON      "О©╫б┌О©╫О©╫О©╫",IDCANCEL,199,260,50,14
 END
 
 IDD_DIALOG_GAME_SCHEDULE DIALOG DISCARDABLE  0, 0, 319, 225
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "░V▀K┐X┐P┐W┐┘│[┐▀"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫VО©╫KО©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "⌠o≤^┌Ё┌Й┌д┌╒┌И┐Z┐b┐g(&T):",IDC_STATIC,10,5,150,10
+    LTEXT           "О©╫oО©╫^О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫ZО©╫bО©╫g(&T):",IDC_STATIC,10,5,150,10
     CONTROL         "List1",IDC_LIST_GAME,"SysListView32",LVS_REPORT | 
                     LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
                     WS_BORDER | WS_TABSTOP,5,15,290,155
@@ -309,24 +309,24 @@ BEGIN
                     300,60,15,15
     CONTROL         "do&wn",IDC_BUTTON_DOWN,"Button",BS_OWNERDRAW | 
                     WS_TABSTOP,300,110,15,15
-    PUSHBUTTON      "░щ▓Х∙ш▒╤(&S)",IDC_BUTTON_SAVE,5,175,50,14
-    PUSHBUTTON      "▓г┴а(&A)...",IDC_BUTTON_ADD,155,175,50,14
-    PUSHBUTTON      "∙р▐W(&E)...",IDC_BUTTON_EDIT,210,175,50,14
-    PUSHBUTTON      "█М▐°(&D)",IDC_BUTTON_DELETE,265,175,50,14
-    DEFPUSHBUTTON   "┐Q│[┐─┼J▌n",IDOK,210,205,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,265,205,50,14
+    PUSHBUTTON      "О©╫щ▓О©╫ш▒О©╫(&S)",IDC_BUTTON_SAVE,5,175,50,14
+    PUSHBUTTON      "О©╫г┴О©╫(&A)...",IDC_BUTTON_ADD,155,175,50,14
+    PUSHBUTTON      "О©╫р▐W(&E)...",IDC_BUTTON_EDIT,210,175,50,14
+    PUSHBUTTON      "О©╫М▐°(&D)",IDC_BUTTON_DELETE,265,175,50,14
+    DEFPUSHBUTTON   "О©╫QО©╫[О©╫О©╫О©╫JО©╫n",IDOK,210,205,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,265,205,50,14
 END
 
 IDD_DIALOG_OPTION_PLAYER DIALOG DISCARDABLE  0, 0, 241, 235
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐v┐▄┐C┐└│[▐Н∙Я"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    CONTROL         "┐X┐R┐A∙╫▀о┌П┐┴┐E┐⌠┐h▓P┬й(PPR)┌е∙\▌╕┌╥┌И(&V)",
+    CONTROL         "О©╫XО©╫RО©╫AО©╫О©╫О©╫о┌О©╫О©╫О©╫О©╫EО©╫О©╫О©╫hО©╫PО©╫О©╫(PPR)О©╫е∙\О©╫О©╫О©╫О©╫О©╫О©╫(&V)",
                     IDC_CHECK_AVG_PPR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
                     10,10,215,10
-    GROUPBOX        "┐v┐▄┐C┐└│[▐Н∙Я",IDC_STATIC,10,27,220,25
-    CONTROL         "┐v┐▄┐C┐└│[√╪ (&P)",IDC_CHECK_NAME,"Button",
+    GROUPBOX        "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫",IDC_STATIC,10,27,220,25
+    CONTROL         "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫ (&P)",IDC_CHECK_NAME,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,20,37,70,10
     CONTROL         "- &First - ",IDC_CHECK_FIRST,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,90,37,85,10
@@ -358,15 +358,15 @@ BEGIN
                     BS_AUTOCHECKBOX | WS_TABSTOP,160,128,60,10
     CONTROL         "Check-&Out",IDC_CHECK_AVG_CHECK_OUT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,20,142,60,10
-    CONTROL         "Check-&Out √{░■",IDC_CHECK_AVG_CHECK_OUT_COUNT,"Button",
+    CONTROL         "Check-&Out О©╫{О©╫О©╫",IDC_CHECK_AVG_CHECK_OUT_COUNT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,90,142,70,10
     CONTROL         "&Keep",IDC_CHECK_AVG_KEEP,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,20,156,60,10
-    CONTROL         "&Keep ░■",IDC_CHECK_AVG_KEEP_COUNT,"Button",
+    CONTROL         "&Keep О©╫О©╫",IDC_CHECK_AVG_KEEP_COUNT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,90,156,70,10
     CONTROL         "B&reak",IDC_CHECK_AVG_BREAK,"Button",BS_AUTOCHECKBOX | 
                     WS_TABSTOP,20,170,60,10
-    CONTROL         "B&reak ░■",IDC_CHECK_AVG_BREAK_COUNT,"Button",
+    CONTROL         "B&reak О©╫О©╫",IDC_CHECK_AVG_BREAK_COUNT,"Button",
                     BS_AUTOCHECKBOX | WS_TABSTOP,90,170,70,10
     GROUPBOX        "Arrange",IDC_STATIC,10,191,220,25
     CONTROL         "&Arrange",IDC_CHECK_ARRANGE,"Button",BS_AUTOCHECKBOX | 
@@ -375,38 +375,38 @@ END
 
 IDD_DIALOG_FINISH DIALOG DISCARDABLE  0, 0, 120, 96
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐`┐F┐b┐N┐A┐E┐g"
-FONT 12, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫`О©╫FО©╫bО©╫NО©╫AО©╫EО©╫g"
+FONT 12, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,60,75,50,14
-    PUSHBUTTON      "&1√{√з┌е▐I≈╧",IDC_BUTTON_FINISH_1,10,10,100,15
-    PUSHBUTTON      "&2√{√з┌е▐I≈╧",IDC_BUTTON_FINISH_2,10,30,100,15
-    PUSHBUTTON      "&3√{√з┌е▐I≈╧",IDC_BUTTON_FINISH_3,10,50,100,15
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,60,75,50,14
+    PUSHBUTTON      "&1О©╫{О©╫з┌е▐IО©╫О©╫",IDC_BUTTON_FINISH_1,10,10,100,15
+    PUSHBUTTON      "&2О©╫{О©╫з┌е▐IО©╫О©╫",IDC_BUTTON_FINISH_2,10,30,100,15
+    PUSHBUTTON      "&3О©╫{О©╫з┌е▐IО©╫О©╫",IDC_BUTTON_FINISH_3,10,50,100,15
 END
 
 IDD_DIALOG_CHECK_OUT DIALOG DISCARDABLE  0, 0, 159, 93
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐`┐F┐b┐N┐A┐E┐g┐┌│[┐h"
-FONT 12, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫`О©╫FО©╫bО©╫NО©╫AО©╫EО©╫gО©╫О©╫О©╫[О©╫h"
+FONT 12, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "┐t┐B┐j┐b┐V┐┘│i┐_┐u┐▀│j┌П▒_┌а┌╫√{░■┌П⌠Э≈м┌╣┌д┌╜┌╬┌Ё┌╒│B",
+    LTEXT           "О©╫tО©╫BО©╫jО©╫bО©╫VО©╫О©╫О©╫iО©╫_О©╫uО©╫О©╫О©╫jО©╫О©╫_О©╫О©╫О©╫О©╫О©╫{О©╫О©╫О©╫О©╫О©╫О©╫м┌О©╫О©╫д┌О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫B",
                     IDC_STATIC,10,10,140,20
     EDITTEXT        IDC_EDIT_COUNT,10,35,45,27,ES_CENTER | ES_AUTOHSCROLL | 
                     ES_NUMBER
     CONTROL         "Spin1",IDC_SPIN_COUNT,"msctls_updown32",UDS_SETBUDDYINT | 
                     UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
                     UDS_NOTHOUSANDS,75,35,9,15
-    LTEXT           "√{",IDC_STATIC,60,50,10,10
+    LTEXT           "О©╫{",IDC_STATIC,60,50,10,10
     DEFPUSHBUTTON   "OK",IDOK,45,70,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,101,70,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,101,70,50,14
 END
 
 IDD_DIALOG_OPTION_PLUGIN DIALOG DISCARDABLE  0, 0, 241, 235
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐v┐┴┐O┐C┐⌠"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫vО©╫О©╫О©╫OО©╫CО©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "⌠o≤^┌Ё┌Й┌д┌╒┌И┐v┐┴┐O┐C┐⌠(&S):",IDC_STATIC,10,5,150,10
+    LTEXT           "О©╫oО©╫^О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫vО©╫О©╫О©╫OО©╫CО©╫О©╫(&S):",IDC_STATIC,10,5,150,10
     CONTROL         "List1",IDC_LIST_PLUGIN,"SysListView32",LVS_REPORT | 
                     LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | 
                     WS_BORDER | WS_TABSTOP,5,15,210,195
@@ -414,33 +414,33 @@ BEGIN
                     220,80,15,15
     CONTROL         "do&wn",IDC_BUTTON_DOWN,"Button",BS_OWNERDRAW | 
                     WS_TABSTOP,220,130,15,15
-    PUSHBUTTON      "▓г┴а(&A)...",IDC_BUTTON_ADD,20,215,50,14
-    PUSHBUTTON      "█М▐°(&D)",IDC_BUTTON_DELETE,75,215,50,14
-    PUSHBUTTON      "┐v┐█┐p┐e┐B(&P)...",IDC_BUTTON_PROPERTY,130,215,50,14
-    PUSHBUTTON      "┐L│[(&K)...",IDC_BUTTON_KEY,185,215,50,14
+    PUSHBUTTON      "О©╫г┴О©╫(&A)...",IDC_BUTTON_ADD,20,215,50,14
+    PUSHBUTTON      "О©╫М▐°(&D)",IDC_BUTTON_DELETE,75,215,50,14
+    PUSHBUTTON      "О©╫vО©╫О©╫О©╫pО©╫eО©╫B(&P)...",IDC_BUTTON_PROPERTY,130,215,50,14
+    PUSHBUTTON      "О©╫LО©╫[(&K)...",IDC_BUTTON_KEY,185,215,50,14
 END
 
 IDD_DIALOG_SET_PLUGIN DIALOG DISCARDABLE  0, 0, 186, 175
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐v┐┴┐O┐C┐⌠▒I▒П"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫vО©╫О©╫О©╫OО©╫CО©╫О©╫О©╫IО©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
     LISTBOX         IDC_LIST,5,5,175,145,LBS_MULTIPLESEL | 
                     LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
     DEFPUSHBUTTON   "OK",IDOK,75,155,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,130,155,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,130,155,50,14
 END
 
 IDD_DIALOG_SET_PLUGIN_KEY DIALOG DISCARDABLE  0, 0, 123, 65
 STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "┐L│[▒I▒П"
-FONT 9, "┌l┌r ┌o┐S┐V┐b┐N"
+CAPTION "О©╫LО©╫[О©╫IО©╫О©╫"
+FONT 9, "О©╫lО©╫r О©╫oО©╫SО©╫VО©╫bО©╫N"
 BEGIN
-    LTEXT           "┐V┐┤│[┐g┐J┐b┐g ┐L│[(&K):",-1,8,10,102,10
+    LTEXT           "О©╫VО©╫О©╫О©╫[О©╫gО©╫JО©╫bО©╫g О©╫LО©╫[(&K):",-1,8,10,102,10
     CONTROL         "HotKey1",IDC_HOTKEY_KEY,"msctls_hotkey32",WS_BORDER | 
                     WS_TABSTOP,8,20,105,15
     DEFPUSHBUTTON   "OK",IDOK,8,44,50,14
-    PUSHBUTTON      "┐L┐┐┐⌠┐Z┐▀",IDCANCEL,64,44,50,14
+    PUSHBUTTON      "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫",IDCANCEL,64,44,50,14
 END
 
 
@@ -451,65 +451,65 @@ END
 
 IDR_MENU_MAIN MENU DISCARDABLE 
 BEGIN
-    POPUP "┐Q│[┐─(&G)"
+    POPUP "О©╫QО©╫[О©╫О©╫(&G)"
     BEGIN
-        MENUITEM "░V▀K┐Q│[┐─(&N)...",           ID_MENUITEM_NEW_GAME
+        MENUITEM "О©╫VО©╫KО©╫QО©╫[О©╫О©╫(&N)...",           ID_MENUITEM_NEW_GAME
         MENUITEM SEPARATOR
-        MENUITEM "░V▀K┐X┐P┐W┐┘│[┐▀(&E)...",     ID_MENUITEM_NEW_SCHEDULE
-        MENUITEM "┐X┐P┐W┐┘│[┐▀∙о█X(&M)...",     ID_MENUITEM_SET_SCHEDULE
+        MENUITEM "О©╫VО©╫KО©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫(&E)...",     ID_MENUITEM_NEW_SCHEDULE
+        MENUITEM "О©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫О©╫о█X(&M)...",     ID_MENUITEM_SET_SCHEDULE
         MENUITEM SEPARATOR
-        MENUITEM "┐Q│[┐─≈ ≈П(&H)...",           ID_MENUITEM_GAME_HISTORY
+        MENUITEM "О©╫QО©╫[О©╫О©╫О©╫О©╫О©╫О©╫(&H)...",           ID_MENUITEM_GAME_HISTORY
         MENUITEM SEPARATOR
-        MENUITEM "┐I┐v┐V┐┤┐⌠(&O)...",           ID_MENUITEM_OPTION
-        MENUITEM "┐X┐R┐A┌П▌╘⌠╝∙ш▒╤(&S)",        ID_MENUITEM_AUTO_SAVE
-        MENUITEM "┐`┐F┐b┐N┐A┐E┐g┐┌│[┐h(&C)",    ID_MENUITEM_CHECK_OUT_MODE
+        MENUITEM "О©╫IО©╫vО©╫VО©╫О©╫О©╫О©╫(&O)...",           ID_MENUITEM_OPTION
+        MENUITEM "О©╫XО©╫RО©╫AО©╫О©╫О©╫О©╫О©╫О©╫О©╫ш▒О©╫(&S)",        ID_MENUITEM_AUTO_SAVE
+        MENUITEM "О©╫`О©╫FО©╫bО©╫NО©╫AО©╫EО©╫gО©╫О©╫О©╫[О©╫h(&C)",    ID_MENUITEM_CHECK_OUT_MODE
         MENUITEM SEPARATOR
-        MENUITEM "n01 ┐I┐⌠┐┴┐C┐⌠▒н░М(&L)",      ID_MENUITEM_ONLINE
+        MENUITEM "n01 О©╫IО©╫О©╫О©╫О©╫О©╫CО©╫О©╫О©╫н░О©╫(&L)",      ID_MENUITEM_ONLINE
         MENUITEM SEPARATOR
-        MENUITEM "▐I≈╧(&X)",                    ID_MENUITEM_EXIT
+        MENUITEM "О©╫IО©╫О©╫(&X)",                    ID_MENUITEM_EXIT
     END
-    POPUP "∙\▌╕(&V)"
+    POPUP "О©╫\О©╫О©╫(&V)"
     BEGIN
-        MENUITEM "√╪▒O(&N)",                    ID_MENUITEM_SHOW_NAME
-        MENUITEM "┐v┐▄┐C┐└│[▐Н∙Я(&P)",          ID_MENUITEM_SHOW_PLAYER
-        MENUITEM "▌c┌Х┐X┐R┐A(&L)",              ID_MENUITEM_SHOW_LEFT
-        MENUITEM "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[(&K)",     ID_MENUITEM_SHOW_GUIDE
+        MENUITEM "О©╫О©╫О©╫O(&N)",                    ID_MENUITEM_SHOW_NAME
+        MENUITEM "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫(&P)",          ID_MENUITEM_SHOW_PLAYER
+        MENUITEM "О©╫cО©╫О©╫XО©╫RО©╫A(&L)",              ID_MENUITEM_SHOW_LEFT
+        MENUITEM "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[(&K)",     ID_MENUITEM_SHOW_GUIDE
         MENUITEM SEPARATOR
-        POPUP "▌c┌Х┐X┐R┐A┌л┐T┐C┐Y(&S)"
+        POPUP "О©╫cО©╫О©╫XО©╫RО©╫AО©╫л┐TО©╫CО©╫Y(&S)"
         BEGIN
-            MENUITEM "▒Е(&L)",                      ID_MENUITEM_FONT_L
-            MENUITEM "▓├(&M)",                      ID_MENUITEM_FONT_M
-            MENUITEM "▐╛(&S)",                      ID_MENUITEM_FONT_S
+            MENUITEM "О©╫О©╫(&L)",                      ID_MENUITEM_FONT_L
+            MENUITEM "О©╫О©╫(&M)",                      ID_MENUITEM_FONT_M
+            MENUITEM "О©╫О©╫(&S)",                      ID_MENUITEM_FONT_S
         END
-        MENUITEM "┐t┐▀┐X┐N┐┼│[┐⌠(&F)",          ID_MENUITEM_FULL_SCREEN
+        MENUITEM "О©╫tО©╫О©╫О©╫XО©╫NО©╫О©╫О©╫[О©╫О©╫(&F)",          ID_MENUITEM_FULL_SCREEN
         MENUITEM SEPARATOR
-        MENUITEM "┐C┐⌠┐f┐b┐N┐X┌П┐_│[┐c░■┌е∙\▌╕(&I)", 
+        MENUITEM "О©╫CО©╫О©╫О©╫fО©╫bО©╫NО©╫XО©╫О©╫О©╫_О©╫[О©╫cО©╫О©╫О©╫е∙\О©╫О©╫(&I)", 
                                                 ID_MENUITEM_SHOW_DARTSCOUNT
     END
-    POPUP "┐X┐R┐A(&S)"
+    POPUP "О©╫XО©╫RО©╫A(&S)"
     BEGIN
-        MENUITEM "&1√{√з┌е▐I≈╧",                ID_MENUITEM_FINISH_ONE
-        MENUITEM "&2√{√з┌е▐I≈╧",                ID_MENUITEM_FINISH_TWO
-        MENUITEM "&3√{√з┌е▐I≈╧",                ID_MENUITEM_FINISH_THREE
+        MENUITEM "&1О©╫{О©╫з┌е▐IО©╫О©╫",                ID_MENUITEM_FINISH_ONE
+        MENUITEM "&2О©╫{О©╫з┌е▐IО©╫О©╫",                ID_MENUITEM_FINISH_TWO
+        MENUITEM "&3О©╫{О©╫з┌е▐IО©╫О©╫",                ID_MENUITEM_FINISH_THREE
         MENUITEM SEPARATOR
-        MENUITEM "┐~┐h┐▀ ┐t┐H│[ ┐f┐B┐h┐▀(&M)...", ID_MENUITEM_MIDDLE
+        MENUITEM "О©╫~О©╫hО©╫О©╫ О©╫tО©╫HО©╫[ О©╫fО©╫BО©╫hО©╫О©╫(&M)...", ID_MENUITEM_MIDDLE
         MENUITEM SEPARATOR
-        POPUP "▓Х▄^⌠Э≈м(&I)"
+        POPUP "О©╫О©╫^О©╫О©╫О©╫О©╫(&I)"
         BEGIN
-            MENUITEM "(┌х┌╣)",                      ID_MENUITEM_NOTHING
+            MENUITEM "(О©╫х┌О©╫)",                      ID_MENUITEM_NOTHING
             , GRAYED
         END
-        MENUITEM "▌c┌Х┐X┐R┐A┌е┌л⌠Э≈м(&L)",      ID_MENUITEM_SCORE_LEFT
+        MENUITEM "О©╫cО©╫О©╫XО©╫RО©╫AО©╫е┌л⌠О©╫О©╫О©╫(&L)",      ID_MENUITEM_SCORE_LEFT
         MENUITEM SEPARATOR
-        MENUITEM "▒O┌л┐▄┐b┐O┌и√ъ┌И(&P)",        ID_MENUITEM_PREV_LEG
-        MENUITEM "┐X┐R┐A┌л⌠Э┌Й▒ж┌╕(&W)",        ID_MENUITEM_SCORE_SWAP
-        MENUITEM "┐X┐R┐A┌л┐N┐┼┐A(&C)",          ID_MENUITEM_SCORE_CLEAR
+        MENUITEM "О©╫OО©╫л┐О©╫О©╫bО©╫OО©╫и√ъ┌О©╫(&P)",        ID_MENUITEM_PREV_LEG
+        MENUITEM "О©╫XО©╫RО©╫AО©╫л⌠О©╫О©╫О©╫ж┌О©╫(&W)",        ID_MENUITEM_SCORE_SWAP
+        MENUITEM "О©╫XО©╫RО©╫AО©╫л┐NО©╫О©╫О©╫A(&C)",          ID_MENUITEM_SCORE_CLEAR
         MENUITEM SEPARATOR
-        MENUITEM "┐A┐▄┐⌠┐W┌л∙\▌╕(&A)...",       ID_MENUITEM_ARRANGE
+        MENUITEM "О©╫AО©╫О©╫О©╫О©╫О©╫WО©╫л∙\О©╫О©╫(&A)...",       ID_MENUITEM_ARRANGE
     END
-    POPUP "┐w┐▀┐v(&H)"
+    POPUP "О©╫wО©╫О©╫О©╫v(&H)"
     BEGIN
-        MENUITEM "┐o│[┐W┐┤┐⌠▐Н∙Я(&A)...",       ID_MENUITEM_ABOUT
+        MENUITEM "О©╫oО©╫[О©╫WО©╫О©╫О©╫О©╫О©╫О©╫О©╫(&A)...",       ID_MENUITEM_ABOUT
     END
 END
 
@@ -615,90 +615,90 @@ END
 STRINGTABLE DISCARDABLE 
 BEGIN
     IDS_STRING_CHECK_OUT_MODE 
-                            "┐`┐F┐b┐N┐A┐E┐g┐┌│[┐h┌и░щ▓Х┌╣┌э┌╣┌╫│B\n┐Q│[┐─▓├┌и┐t┐B┐j┐b┐V┐┘(┐_┐u┐▀)┌П▒_┌а┌╫√{░■┌л⌠Э≈м┴Ф√й┌П∙\▌╕┌╣┌э┌╥│B"
-    IDS_STRING_AUTO_SAVE_MODE "'%s' ┌и┐Z┐b┐g√┬┌л┐X┐R┐A┌П▌╘⌠╝∙ш▒╤┌╣┌э┌╥│B"
-    IDS_STRING_PREV_LEG     "▒O┌л┐▄┐b┐O┌и√ъ┌а┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
+                            "О©╫`О©╫FО©╫bО©╫NО©╫AО©╫EО©╫gО©╫О©╫О©╫[О©╫hО©╫и░щ▓Х┌╣О©╫э┌О©╫О©╫О©╫О©╫B\nО©╫QО©╫[О©╫О©╫О©╫О©╫О©╫и┐tО©╫BО©╫jО©╫bО©╫VО©╫О©╫(О©╫_О©╫uО©╫О©╫)О©╫О©╫_О©╫О©╫О©╫О©╫О©╫{О©╫О©╫О©╫л⌠О©╫О©╫м┴О©╫й┌О©╫\О©╫О©╫О©╫О©╫О©╫э┌О©╫О©╫B"
+    IDS_STRING_AUTO_SAVE_MODE "'%s' О©╫и┐ZО©╫bО©╫gО©╫О©╫О©╫л┐XО©╫RО©╫AО©╫О©╫О©╫О©╫О©╫О©╫О©╫ш▒О©╫О©╫О©╫О©╫э┌О©╫О©╫B"
+    IDS_STRING_PREV_LEG     "О©╫OО©╫л┐О©╫О©╫bО©╫OО©╫и√ъ┌О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_OP_SCH_START_SCORE "┼J▌n┐X┐R┐A"
-    IDS_STRING_OP_SCH_ROUND "┐┴┐E┐⌠┐h"
-    IDS_STRING_OP_SCH_LEG   "┐▄┐b┐O"
-    IDS_STRING_OP_SCH_P1    "┐v┐▄┐C┐└│[1"
-    IDS_STRING_OP_SCH_P2    "┐v┐▄┐C┐└│[2"
+    IDS_STRING_OP_SCH_START_SCORE "О©╫JО©╫nО©╫XО©╫RО©╫A"
+    IDS_STRING_OP_SCH_ROUND "О©╫О©╫О©╫EО©╫О©╫О©╫h"
+    IDS_STRING_OP_SCH_LEG   "О©╫О©╫О©╫bО©╫O"
+    IDS_STRING_OP_SCH_P1    "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[1"
+    IDS_STRING_OP_SCH_P2    "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[2"
     IDS_STRING_OP_SCH_BEST_OF "Best of %d"
     IDS_STRING_OP_SCH_OK    "OK"
-    IDS_STRING_OP_SCH_TITLE "┐X┐P┐W┐┘│[┐▀∙о█X"
+    IDS_STRING_OP_SCH_TITLE "О©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫О©╫о█X"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
     IDS_STRING_DEFAULT_FONT "Arial"
-    IDS_STRING_ARRANGE_FONT "┌l┌r ┐S┐V┐b┐N"
+    IDS_STRING_ARRANGE_FONT "О©╫lО©╫r О©╫SО©╫VО©╫bО©╫N"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_POS_PLAYER_TEXT "┐v┐▄┐C┐└│[▐Н∙Я┌л┐e┐L┐X┐g"
-    IDS_STRING_POS_PLAYER_INFO_TITLE "┐v┐▄┐C┐└│[▐Н∙Я┌л┐w┐b┐_│[┐e┐L┐X┐g"
-    IDS_STRING_POS_VIEW_SEPARATE "┐r┐┘│[┌л▀╚┼E░Э"
-    IDS_STRING_POS_GUIDE_BACKGROUND "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л■w▄i"
-    IDS_STRING_POS_GUIDE_TEXT "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л┐e┐L┐X┐g"
-    IDS_STRING_POS_GUIDE_SELECT_BACKGROUND "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л▒I▒П"
-    IDS_STRING_POS_GUIDE_SELECT_TEXT "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л▒I▒П┐e┐L┐X┐g"
-    IDS_STRING_POS_GUIDE_BOX_BACKGROUND "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л┐L│[■w▄i"
-    IDS_STRING_POS_GUIDE_BOX_TEXT "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л┐L│[┐e┐L┐X┐g"
-    IDS_STRING_POS_GUIDE_BOX_FRAME "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л≤g░Э"
-    IDS_STRING_POS_GUIDE_BOX_DISABLE "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[┌л√Ё▄Ь░F"
+    IDS_STRING_POS_PLAYER_TEXT "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫л┐eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_PLAYER_INFO_TITLE "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫л┐wО©╫bО©╫_О©╫[О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_VIEW_SEPARATE "О©╫rО©╫О©╫О©╫[О©╫л▀О©╫О©╫EО©╫О©╫"
+    IDS_STRING_POS_GUIDE_BACKGROUND "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л■wО©╫i"
+    IDS_STRING_POS_GUIDE_TEXT "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л┐eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_GUIDE_SELECT_BACKGROUND "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л▒IО©╫О©╫"
+    IDS_STRING_POS_GUIDE_SELECT_TEXT "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л▒IО©╫О©╫О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_GUIDE_BOX_BACKGROUND "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л┐LО©╫[О©╫wО©╫i"
+    IDS_STRING_POS_GUIDE_BOX_TEXT "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л┐LО©╫[О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_GUIDE_BOX_FRAME "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л≤gО©╫О©╫"
+    IDS_STRING_POS_GUIDE_BOX_DISABLE "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[О©╫л√О©╫О©╫О©╫О©╫F"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_RESET_COLOR  "░F▐Н∙Я┌П▐┴┼З┴╩┌╣┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
+    IDS_STRING_RESET_COLOR  "О©╫FО©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_POS_BACKGROUND "┐X┐R┐A┬Й≈≈┌л■w▄i (▀Т░■█s)"
-    IDS_STRING_POS_ODD_BACKGROUND "┐X┐R┐A┬Й≈≈┌л■w▄i (┼О░■█s)"
-    IDS_STRING_POS_SCORED_TEXT "┐X┐R┐A┬Й≈≈┌л┐e┐L┐X┐g (Scored)"
-    IDS_STRING_POS_TOGO_TEXT "┐X┐R┐A┬Й≈≈┌л┐e┐L┐X┐g (To Go)"
+    IDS_STRING_POS_BACKGROUND "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л■wО©╫i (О©╫О©╫О©╫О©╫О©╫s)"
+    IDS_STRING_POS_ODD_BACKGROUND "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л■wО©╫i (О©╫О░■О©╫s)"
+    IDS_STRING_POS_SCORED_TEXT "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л┐eО©╫LО©╫XО©╫g (Scored)"
+    IDS_STRING_POS_TOGO_TEXT "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л┐eО©╫LО©╫XО©╫g (To Go)"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_POS_HEADER_BACKGROUND "┐X┐R┐A┬Й≈≈┌л┐w┐b┐_│[■w▄i"
-    IDS_STRING_POS_HEADER_TEXT "┐X┐R┐A┬Й≈≈┌л┐w┐b┐_│[┐e┐L┐X┐g"
-    IDS_STRING_POS_LAST3NUMBER_TEXT "┐X┐R┐A┬Й≈≈┌л┐┴┐X┐g3┐e┐L┐X┐g"
-    IDS_STRING_POS_LINE     "┐X┐R┐A┬Й≈≈┌л░Э"
-    IDS_STRING_POS_SEPARATE "┐X┐R┐A┬Й≈≈┌л▀Ф░ь┌Х░Э"
-    IDS_STRING_POS_TON_CIRCLE "┐X┐R┐A┬Й≈≈┌лTON┴~"
-    IDS_STRING_POS_INPUT_BACKGROUND "⌠Э≈м┌л■w▄i"
-    IDS_STRING_POS_INPUT_TEXT "⌠Э≈м┌л┐e┐L┐X┐g"
-    IDS_STRING_POS_INPUT_SELECT_BACKGROUND "⌠Э≈м┌л▒I▒П"
-    IDS_STRING_POS_INPUT_SELECT_TEXT "⌠Э≈м┌л▒I▒П┐e┐L┐X┐g"
-    IDS_STRING_POS_LEFT_BACKGROUND "▌c┌Х┐X┐R┐A┌л■w▄i"
-    IDS_STRING_POS_LEFT_TEXT "▌c┌Х┐X┐R┐A┌л┐e┐L┐X┐g"
-    IDS_STRING_POS_LEFT_ACTIVE_BORDER "▌c┌Х┐X┐R┐A┌л┐A┐N┐e┐B┐u▀╚┼E"
-    IDS_STRING_POS_PLAYER_NAME_BACKGROUND "┐v┐▄┐C┐└│[√╪┌л■w▄i"
-    IDS_STRING_POS_PLAYER_NAME_TEXT "┐v┐▄┐C┐└│[√╪┌л┐e┐L┐X┐g"
-    IDS_STRING_POS_PLAYER_BACKGROUND "┐v┐▄┐C┐└│[▐Н∙Я┌л■w▄i"
+    IDS_STRING_POS_HEADER_BACKGROUND "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л┐wО©╫bО©╫_О©╫[О©╫wО©╫i"
+    IDS_STRING_POS_HEADER_TEXT "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л┐wО©╫bО©╫_О©╫[О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_LAST3NUMBER_TEXT "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л┐О©╫О©╫XО©╫g3О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_LINE     "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л░О©╫"
+    IDS_STRING_POS_SEPARATE "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫л▀О©╫ь┌О©╫О©╫"
+    IDS_STRING_POS_TON_CIRCLE "О©╫XО©╫RО©╫AО©╫Й≈≈О©╫О©╫TONО©╫~"
+    IDS_STRING_POS_INPUT_BACKGROUND "О©╫О©╫О©╫м┌л■wО©╫i"
+    IDS_STRING_POS_INPUT_TEXT "О©╫О©╫О©╫м┌л┐eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_INPUT_SELECT_BACKGROUND "О©╫О©╫О©╫м┌л▒IО©╫О©╫"
+    IDS_STRING_POS_INPUT_SELECT_TEXT "О©╫О©╫О©╫м┌л▒IО©╫О©╫О©╫eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_LEFT_BACKGROUND "О©╫cО©╫О©╫XО©╫RО©╫AО©╫л■wО©╫i"
+    IDS_STRING_POS_LEFT_TEXT "О©╫cО©╫О©╫XО©╫RО©╫AО©╫л┐eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_LEFT_ACTIVE_BORDER "О©╫cО©╫О©╫XО©╫RО©╫AО©╫л┐AО©╫NО©╫eО©╫BО©╫uО©╫О©╫О©╫E"
+    IDS_STRING_POS_PLAYER_NAME_BACKGROUND "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫л■wО©╫i"
+    IDS_STRING_POS_PLAYER_NAME_TEXT "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫л┐eО©╫LО©╫XО©╫g"
+    IDS_STRING_POS_PLAYER_BACKGROUND "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫л■wО©╫i"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    ID_MENUITEM_SCORE_CLEAR "┐X┐R┐A┌л┐N┐┼┐A(&C)"
-    ID_MENUITEM_ARRANGE     "┐A┐▄┐⌠┐W┌л∙\▌╕(&A)..."
-    ID_MENUITEM_GAME_HISTORY "┐Q│[┐─≈ ≈П(&H)..."
-    ID_MENUITEM_AUTO_SAVE   "┐X┐R┐A┌П▌╘⌠╝∙ш▒╤(&S)"
-    ID_MENUITEM_NEW_SCHEDULE "░V▀K┐X┐P┐W┐┘│[┐▀(&E)..."
-    ID_MENUITEM_OPTION      "┐I┐v┐V┐┤┐⌠(&O)..."
-    ID_MENUITEM_SET_SCHEDULE "┐X┐P┐W┐┘│[┐▀∙о█X(&M)..."
-    ID_MENUITEM_CHECK_OUT_MODE "┐`┐F┐b┐N┐A┐E┐g┐┌│[┐h(&C)"
-    ID_MENUITEM_PREV_LEG    "▒O┌л┐▄┐b┐O┌и√ъ┌И(&P)"
-    ID_MENUITEM_FONT_L      "▒Е(&L)"
-    ID_MENUITEM_FONT_M      "▓├(&M)"
+    ID_MENUITEM_SCORE_CLEAR "О©╫XО©╫RО©╫AО©╫л┐NО©╫О©╫О©╫A(&C)"
+    ID_MENUITEM_ARRANGE     "О©╫AО©╫О©╫О©╫О©╫О©╫WО©╫л∙\О©╫О©╫(&A)..."
+    ID_MENUITEM_GAME_HISTORY "О©╫QО©╫[О©╫О©╫О©╫О©╫О©╫О©╫(&H)..."
+    ID_MENUITEM_AUTO_SAVE   "О©╫XО©╫RО©╫AО©╫О©╫О©╫О©╫О©╫О©╫О©╫ш▒О©╫(&S)"
+    ID_MENUITEM_NEW_SCHEDULE "О©╫VО©╫KО©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫(&E)..."
+    ID_MENUITEM_OPTION      "О©╫IО©╫vО©╫VО©╫О©╫О©╫О©╫(&O)..."
+    ID_MENUITEM_SET_SCHEDULE "О©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫О©╫о█X(&M)..."
+    ID_MENUITEM_CHECK_OUT_MODE "О©╫`О©╫FО©╫bО©╫NО©╫AО©╫EО©╫gО©╫О©╫О©╫[О©╫h(&C)"
+    ID_MENUITEM_PREV_LEG    "О©╫OО©╫л┐О©╫О©╫bО©╫OО©╫и√ъ┌О©╫(&P)"
+    ID_MENUITEM_FONT_L      "О©╫О©╫(&L)"
+    ID_MENUITEM_FONT_M      "О©╫О©╫(&M)"
 END
 
 STRINGTABLE DISCARDABLE 
@@ -706,28 +706,28 @@ BEGIN
     IDS_STRING_OP_LIST_SET  "%d Sets"
     IDS_STRING_OP_LIST_LEG  "%d Legs"
     IDS_STRING_OP_LIST_DARTS "%d Darts"
-    IDS_STRING_OP_LIST_PLAYER_INFO "┐v┐▄┐C┐└│[▐Н∙Я"
+    IDS_STRING_OP_LIST_PLAYER_INFO "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫"
     IDS_STRING_OP_LIST_CLEAR 
-                            "▐I≈╧┌╣┌д┌╒┌И┐Z┐b┐g┌П┐N┐┼┐A┌╣┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
+                            "О©╫IО©╫О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫ZО©╫bО©╫gО©╫О©╫О©╫NО©╫О©╫О©╫AО©╫О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_OP_KEY_ACTION "▀@■\"
-    IDS_STRING_OP_KEY_KEY   "┐L│["
-    IDS_STRING_OP_DELETE    "▒I▒П┌╣┌д┌╒┌И█─√з┌П█М▐°┌╣┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
-    IDS_STRING_OP_KEY_NUMBER "▓Х▄^⌠Э≈м"
-    IDS_STRING_OP_KEY_NUMBER_ERROR "▓Х▄^▓l┌м 0│`180 ┌е┌╥│B"
-    IDS_STRING_OP_KEY_NOTHING "┌х┌╣"
-    IDS_STRING_OP_PLUGIN_TITLE "┐^┐C┐g┐▀"
+    IDS_STRING_OP_KEY_ACTION "О©╫@О©╫\"
+    IDS_STRING_OP_KEY_KEY   "О©╫LО©╫["
+    IDS_STRING_OP_DELETE    "О©╫IО©╫О©╫О©╫О©╫О©╫д┌О©╫О©╫И█─О©╫з┌О©╫О©╫М▐°О©╫О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
+    IDS_STRING_OP_KEY_NUMBER "О©╫О©╫^О©╫О©╫О©╫О©╫"
+    IDS_STRING_OP_KEY_NUMBER_ERROR "О©╫О©╫^О©╫lО©╫О©╫ 0О©╫`180 О©╫е┌О©╫О©╫B"
+    IDS_STRING_OP_KEY_NOTHING "О©╫х┌О©╫"
+    IDS_STRING_OP_PLUGIN_TITLE "О©╫^О©╫CО©╫gО©╫О©╫"
     IDS_STRING_OP_PLUGIN_DLL "DLL"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_OP_GAME_SAVE "▄╩█щ┌л░щ▓Х┌П∙ш▒╤┌╣┌э┌╣┌╫│B"
-    IDS_STRING_OP_NAME      "√╪▒O:"
-    IDS_STRING_OP_LEVEL_TITLE "┐▄┐x┐▀:"
+    IDS_STRING_OP_GAME_SAVE "О©╫О©╫О©╫щ┌л░щ▓О©╫О©╫ш▒О©╫О©╫О©╫О©╫э┌О©╫О©╫О©╫О©╫B"
+    IDS_STRING_OP_NAME      "О©╫О©╫О©╫O:"
+    IDS_STRING_OP_LEVEL_TITLE "О©╫О©╫О©╫xО©╫О©╫:"
     IDS_STRING_OP_LEVEL     "Level %d"
 END
 
@@ -760,12 +760,12 @@ END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_FINISH       "%d √{√з┌е▐I≈╧ (%d ┐_│[┐c)"
-    IDS_STRING_SCORE_SWAP   "┌╠┌л┐▄┐b┐O┌л┐X┐R┐A┌П⌠Э┌Й▒ж┌╕┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
-    IDS_STRING_SCORE_CLEAR  "┌╠┌л┐▄┐b┐O┌л┐X┐R┐A┌П┐N┐┼┐A┌╣┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
-    IDS_STRING_TIE          "┬Ь┌╚∙╙┌╞"
-    IDS_STRING_GAME_STOP    "┐Q│[┐─┌П▓├▌~┌╣┌э┌╥┌╘│H"
-    IDS_STRING_MIDDLE       "%d ┐_│[┐c┌е▐I≈╧"
+    IDS_STRING_FINISH       "%d О©╫{О©╫з┌е▐IО©╫О©╫ (%d О©╫_О©╫[О©╫c)"
+    IDS_STRING_SCORE_SWAP   "О©╫О©╫О©╫л┐О©╫О©╫bО©╫OО©╫л┐XО©╫RО©╫AО©╫О©╫О©╫О©╫О©╫ж┌О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
+    IDS_STRING_SCORE_CLEAR  "О©╫О©╫О©╫л┐О©╫О©╫bО©╫OО©╫л┐XО©╫RО©╫AО©╫О©╫О©╫NО©╫О©╫О©╫AО©╫О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
+    IDS_STRING_TIE          "О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫"
+    IDS_STRING_GAME_STOP    "О©╫QО©╫[О©╫О©╫О©╫П▓├▌~О©╫О©╫О©╫э┌О©╫О©╫О©╫О©╫H"
+    IDS_STRING_MIDDLE       "%d О©╫_О©╫[О©╫cО©╫е▐IО©╫О©╫"
 END
 
 STRINGTABLE DISCARDABLE 
@@ -780,55 +780,55 @@ END
 STRINGTABLE DISCARDABLE 
 BEGIN
     IDS_STRING_TITLE        "%s - %d Legs"
-    IDS_STRING_EXIT         "n01 ┌П▐I≈╧┌╣┌д┌Ю┌Ф┌К┌╣┌╒┌е┌╥┌╘│H"
-    IDS_STRING_MENU_NOTHING "(┌х┌╣)"
+    IDS_STRING_EXIT         "n01 О©╫О©╫О©╫IО©╫О©╫О©╫О©╫О©╫д┌О©╫О©╫О©╫К┌╣О©╫О©╫О©╫е┌О©╫О©╫О©╫О©╫H"
+    IDS_STRING_MENU_NOTHING "(О©╫х┌О©╫)"
     IDS_STRING_PLAYER1      "Player 1"
     IDS_STRING_PLAYER2      "Player 2"
-    IDS_STRING_SAVE_TITLE   "CSV∙ш▒╤"
+    IDS_STRING_SAVE_TITLE   "CSVО©╫ш▒О©╫"
     IDS_STRING_TITLE_LEG    "%s - %d Sets - (%d Legs / %d Legs)"
     IDS_STRING_TITLE_LEG_BEST_OF "%s - %d Sets - (%d Legs / Best of %d Legs)"
-    IDS_STRING_SET_END      "%d ▒н %d ┌е %s ┌л▐÷≈≤"
+    IDS_STRING_SET_END      "%d О©╫О©╫ %d О©╫О©╫ %s О©╫л▐О©╫О©╫О©╫"
     IDS_STRING_COM          "COM (Lv.%d)"
     IDS_STRING_COM_NAME     "COM"
-    IDS_STRING_SCHEDULE_MODE " - ┐X┐P┐W┐┘│[┐▀┐┌│[┐h"
+    IDS_STRING_SCHEDULE_MODE " - О©╫XО©╫PО©╫WО©╫О©╫О©╫[О©╫О©╫О©╫О©╫О©╫[О©╫h"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    ID_ACCEL_ESC            "┐L┐┐┐⌠┐Z┐▀"
-    ID_ACCEL_NONE           "┴╫┌Ю┌╣┌х┌╒"
-    ID_ACCEL_UP             "│╙"
-    ID_ACCEL_DOWN           "│╚"
-    ID_ACCEL_TAB            "░i┌ч"
-    ID_ACCEL_STAB           "√ъ┌И"
-    ID_MENUITEM_SHOW_LEFT   "▌c┌Х┐X┐R┐A(&L)"
-    ID_MENUITEM_SHOW_PLAYER "┐v┐▄┐C┐└│[▐Н∙Я(&P)"
-    ID_MENUITEM_SHOW_DARTSCOUNT "┐C┐⌠┐f┐b┐N┐X┌П┐_│[┐c░■┌е∙\▌╕(&I)"
+    ID_ACCEL_ESC            "О©╫LО©╫О©╫О©╫О©╫О©╫ZО©╫О©╫"
+    ID_ACCEL_NONE           "О©╫О©╫О©╫О©╫О©╫О©╫О©╫х┌О©╫"
+    ID_ACCEL_UP             "О©╫О©╫"
+    ID_ACCEL_DOWN           "О©╫О©╫"
+    ID_ACCEL_TAB            "О©╫iО©╫О©╫"
+    ID_ACCEL_STAB           "О©╫ъ┌О©╫"
+    ID_MENUITEM_SHOW_LEFT   "О©╫cО©╫О©╫XО©╫RО©╫A(&L)"
+    ID_MENUITEM_SHOW_PLAYER "О©╫vО©╫О©╫О©╫CО©╫О©╫О©╫[О©╫О©╫О©╫(&P)"
+    ID_MENUITEM_SHOW_DARTSCOUNT "О©╫CО©╫О©╫О©╫fО©╫bО©╫NО©╫XО©╫О©╫О©╫_О©╫[О©╫cО©╫О©╫О©╫е∙\О©╫О©╫(&I)"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    ID_MENUITEM_NEW_GAME    "░V▀K┐Q│[┐─(&N)..."
-    ID_MENUITEM_EXIT        "▐I≈╧(&X)"
-    ID_MENUITEM_FINISH_ONE  "&1√{√з┌е▐I≈╧"
-    ID_MENUITEM_FINISH_TWO  "&2√{√з┌е▐I≈╧"
-    ID_MENUITEM_FINISH_THREE "&3√{√з┌е▐I≈╧"
-    ID_MENUITEM_MIDDLE      "┐~┐h┐▀ ┐t┐H│[ ┐f┐B┐h┐▀(&M)..."
-    ID_MENUITEM_SCORE_LEFT  "▌c┌Х┐X┐R┐A┌е┌л⌠Э≈м(&L)"
-    ID_MENUITEM_SCORE_SWAP  "┐X┐R┐A┌л⌠Э┌Й▒ж┌╕(&W)"
-    ID_MENUITEM_SHOW_GUIDE  "┐t┐@┐⌠┐N┐V┐┤┐⌠ ┐L│[(&K)"
+    ID_MENUITEM_NEW_GAME    "О©╫VО©╫KО©╫QО©╫[О©╫О©╫(&N)..."
+    ID_MENUITEM_EXIT        "О©╫IО©╫О©╫(&X)"
+    ID_MENUITEM_FINISH_ONE  "&1О©╫{О©╫з┌е▐IО©╫О©╫"
+    ID_MENUITEM_FINISH_TWO  "&2О©╫{О©╫з┌е▐IО©╫О©╫"
+    ID_MENUITEM_FINISH_THREE "&3О©╫{О©╫з┌е▐IО©╫О©╫"
+    ID_MENUITEM_MIDDLE      "О©╫~О©╫hО©╫О©╫ О©╫tО©╫HО©╫[ О©╫fО©╫BО©╫hО©╫О©╫(&M)..."
+    ID_MENUITEM_SCORE_LEFT  "О©╫cО©╫О©╫XО©╫RО©╫AО©╫е┌л⌠О©╫О©╫О©╫(&L)"
+    ID_MENUITEM_SCORE_SWAP  "О©╫XО©╫RО©╫AО©╫л⌠О©╫О©╫О©╫ж┌О©╫(&W)"
+    ID_MENUITEM_SHOW_GUIDE  "О©╫tО©╫@О©╫О©╫О©╫NО©╫VО©╫О©╫О©╫О©╫ О©╫LО©╫[(&K)"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_MENU_TOOL    "┐c│[┐▀(&T)"
+    IDS_STRING_MENU_TOOL    "О©╫cО©╫[О©╫О©╫(&T)"
 END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    IDS_STRING_OP_PLUGIN_FUNCTION "┼ж░■√╪"
-    IDS_STRING_OP_PLUGIN_NO_PROP "░щ▓Х┴б■\┌х┐v┐█┐p┐e┐B┌м┌═┌Х┌э┌╧┌Я│B"
-    IDS_STRING_OP_FILESELECT "┐v┐┴┐O┐C┐⌠┐t┐@┐C┐▀▒I▒П"
+    IDS_STRING_OP_PLUGIN_FUNCTION "О©╫ж░О©╫О©╫О©╫"
+    IDS_STRING_OP_PLUGIN_NO_PROP "О©╫щ▓О©╫б■\О©╫х┐vО©╫О©╫О©╫pО©╫eО©╫BО©╫м┌О©╫О©╫О©╫э┌О©╫О©╫О©╫B"
+    IDS_STRING_OP_FILESELECT "О©╫vО©╫О©╫О©╫OО©╫CО©╫О©╫О©╫tО©╫@О©╫CО©╫О©╫О©╫IО©╫О©╫"
 END
 
 STRINGTABLE DISCARDABLE 
@@ -839,19 +839,19 @@ END
 
 STRINGTABLE DISCARDABLE 
 BEGIN
-    ID_MENUITEM_FONT_S      "▐╛(&S)"
-    ID_MENUITEM_SHOW_NAME   "√╪▒O(&N)"
-    IDS_STRING_LEFT         "│╘"
-    IDS_STRING_RIGHT        "│╗"
-    ID_MENUITEM_FULL_SCREEN "┐t┐▀┐X┐N┐┼│[┐⌠(&F)"
+    ID_MENUITEM_FONT_S      "О©╫О©╫(&S)"
+    ID_MENUITEM_SHOW_NAME   "О©╫О©╫О©╫O(&N)"
+    IDS_STRING_LEFT         "О©╫О©╫"
+    IDS_STRING_RIGHT        "О©╫О©╫"
+    ID_MENUITEM_FULL_SCREEN "О©╫tО©╫О©╫О©╫XО©╫NО©╫О©╫О©╫[О©╫О©╫(&F)"
 END
 
-#endif    // ⌠З√{▄Й resources
+#endif    // О©╫О©╫О©╫{О©╫О©╫ resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// ┴p▄Й (╠рь╤) resources
+// О©╫pО©╫О©╫ (О©╫О©╫ь╤) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
@@ -1685,7 +1685,7 @@ BEGIN
     ID_MENUITEM_FULL_SCREEN "&Full Screen"
 END
 
-#endif    // ┴p▄Й (╠рь╤) resources
+#endif    // О©╫pО©╫О©╫ (О©╫О©╫ь╤) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
