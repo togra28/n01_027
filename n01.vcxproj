@@ -142,6 +142,25 @@
     <ClCompile Include="Memory.c" />
     <ClCompile Include="Message.c" />
     <ClCompile Include="middle.c" />
+    <ClCompile Include="nEdit.c" />
+    <ClCompile Include="option.c" />
+    <ClCompile Include="option_key.c" />
+    <ClCompile Include="option_player.c" />
+    <ClCompile Include="option_plugin.c" />
+    <ClCompile Include="option_view.c" />
+    <ClCompile Include="plugin.c" />
+    <ClCompile Include="Profile.c" />
+    <ClCompile Include="recovery.c" />
+    <ClCompile Include="score_com.c" />
+    <ClCompile Include="score_guide.c" />
+    <ClCompile Include="score_info.c" />
+    <ClCompile Include="score_left.c" />
+    <ClCompile Include="score_list.c" />
+    <ClCompile Include="score_name.c" />
+    <ClCompile Include="score_player.c" />
+    <ClCompile Include="score_save.c" />
+    <ClCompile Include="shortcut.cpp" />
+    <ClCompile Include="String.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="n01.rc" />
