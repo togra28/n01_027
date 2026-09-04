@@ -29,3 +29,11 @@ jobs:
           Write-Host "Build completed - check logs for details"
         }
       shell: pwsh
+
+    - name: Upload executable as artifact
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: n01-executable
+        path: Debug/n01.exe
+        if-no-files-found: ignore
