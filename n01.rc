@@ -220,10 +220,10 @@ CAPTION "�X�R�A�ꗗ"
 BEGIN
     COMBOBOX        IDC_COMBO_LEG,1,2,90,205,CBS_DROPDOWNLIST | WS_VSCROLL | 
                     WS_TABSTOP
-    CONTROL         "",IDC_VIEW_SCORE,"score_list_wnd",WS_BORDER | 
+    CONTROL         "",IDC_VIEW_SCORE,STATIC,WS_BORDER | 
                     WS_VSCROLL | WS_TABSTOP,0,18,258,225
-    CONTROL         "",IDC_VIEW_P1,"score_player_wnd",WS_BORDER,90,255,40,25
-    CONTROL         "",IDC_VIEW_P2,"score_player_wnd",WS_BORDER,140,255,40,
+    CONTROL         "",IDC_VIEW_P1,STATIC,WS_BORDER,90,255,40,25
+    CONTROL         "",IDC_VIEW_P2,STATIC,WS_BORDER,140,255,40,
                     25
     CTEXT           "",IDC_STATIC_P1,0,244,70,19,SS_CENTERIMAGE | NOT 
                     WS_VISIBLE,WS_EX_STATICEDGE
@@ -1031,10 +1031,10 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     COMBOBOX        IDC_COMBO_LEG,1,2,105,185,CBS_DROPDOWNLIST | WS_VSCROLL | 
                     WS_TABSTOP
-    CONTROL         "",IDC_VIEW_SCORE,"score_list_wnd",WS_BORDER | 
+    CONTROL         "",IDC_VIEW_SCORE,STATIC,WS_BORDER | 
                     WS_VSCROLL | WS_TABSTOP,0,18,295,208
-    CONTROL         "",IDC_VIEW_P1,"score_player_wnd",WS_BORDER,90,235,47,20
-    CONTROL         "",IDC_VIEW_P2,"score_player_wnd",WS_BORDER,145,235,47,
+    CONTROL         "",IDC_VIEW_P1,STATIC,WS_BORDER,90,235,47,20
+    CONTROL         "",IDC_VIEW_P2,STATIC,WS_BORDER,145,235,47,
                     20
     CTEXT           "",IDC_STATIC_P1,0,227,70,16,SS_CENTERIMAGE | NOT 
                     WS_VISIBLE,WS_EX_STATICEDGE
