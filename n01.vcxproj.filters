@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1c745482-f42d-44e4-a4d3-14e1b5ceba9b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2874c082-d2e2-4e69-ba46-d893237f85d2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a2887725-fa62-4ba2-808e-e53cc1173761}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arrange.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check_out.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="finish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_history.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_option.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_schedule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="middle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nEdit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option_player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option_plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option_view.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="recovery.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_com.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_guide.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_left.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_name.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="score_save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shortcut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="n01.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\arrange.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="res\arrange_com.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="arrange.txt" />
+    <Text Include="arrange_com.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\manifest.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="manifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="check_out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="finish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_history.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_option.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="middle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="option_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="option_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="option_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="option_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="recovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_guide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_left.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="score_save.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shortcut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
